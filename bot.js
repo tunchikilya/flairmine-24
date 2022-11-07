@@ -1,16 +1,16 @@
 const mineflayer = require('mineflayer');
 
-console.log('Starting...')
+console.log('Старт...')
 
 function createBot () {
     const bot = mineflayer.createBot({
-    host: "localhost",
-    port: "25565",
-    username: "Test",
+    host: "flairmine.aternos.me",
+    port: "39501",
+    username: "Flair",
     version: false
     })
     bot.on('login', function() {
-      bot.chat('/reginster 123123123 123123123')
+      bot.chat('/reg HTKdv1ik HTKdv1ik')
     })
     bot.on('chat', (username, message) => {
       if (username === bot.username) return
