@@ -1,4 +1,3 @@
-npm install mineflayer
 const mineflayer = require('mineflayer');
 
 console.log('Старт...')
