@@ -9,4 +9,6 @@
   "keywords": [],
   "author": "Fortcote",
   "license": "ISC"
+  "dependencies": {
+    "mineflayer": "4.x"
 }
